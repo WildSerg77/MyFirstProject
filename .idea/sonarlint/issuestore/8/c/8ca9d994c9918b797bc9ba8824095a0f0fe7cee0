@@ -1,27 +1,17 @@
 
-
-java:S2095I"GUse try-with-resources or close this "Statement" in a "finally" clause.(Ë«Æşûÿÿÿÿ8Çê‚ …2J$1e44c7a2-50d9-458e-b461-95499bfb9b51
-
-java:S20950"GUse try-with-resources or close this "Statement" in a "finally" clause.(Ë«Æşûÿÿÿÿ8Èê‚ …2J$1a19458d-3089-404c-8040-2c338b21750f
-
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Ë«Æşûÿÿÿÿ8Èê‚ …2J$345aeec4-507b-4ce2-82ed-ab79b5f3dc19
-
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Ë«Æşûÿÿÿÿ8Èê‚ …2J$5e3122ec-5400-4c45-9e50-cc706fc6be51
-
-java:S2095:"GUse try-with-resources or close this "Statement" in a "finally" clause.(Ë«Æşûÿÿÿÿ8ŠÌ …2J$99d4f36b-6e5f-41fd-8905-1a413df0411c
-
-java:S2095'"GUse try-with-resources or close this "Statement" in a "finally" clause.(Ë«Æşûÿÿÿÿ8Èê‚ …2J$d48d113a-0168-49ab-b8d5-be8ce6da92d2
+—
+java:S2095#"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÕÿÉØşÿÿÿÿ8çÄõË…2J$8d6f84a9-d7dd-4922-bef1-8b2f443a9ad0
 Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ñ½†š8Êê‚ …2J$3621d95c-65eb-4597-b5b3-f608cf88e81a
-k	java:S108")Either remove or fill this block of code.(É®£8îê‚ …2J$a6c4b57e-fe12-4942-ab59-73eabbe59599
-k	java:S108!")Either remove or fill this block of code.(É®£8óê‚ …2J$a839dd78-27ac-4001-83ac-a1c9ac80e4e6
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ñ½†š8éÄõË…2J$a99251b1-826f-4b7f-b705-b0cfdc594ac0
+k	java:S108")Either remove or fill this block of code.(É®£8îÄõË…2J$a2075dfb-11fb-4a29-826f-5271a3609ed6
+k	java:S108")Either remove or fill this block of code.(É®£8ïÄõË…2J$2c4fdd8c-54d8-4721-8515-c6d090ff51ca
 ”
-java:S3457)"Q%n should be used in place of \n to produce the platform-specific line separator.(éÍ­Š8ôê‚ …2J$fbe6cdc9-69fa-42c0-b4fe-8b29d124ec67
-m	java:S106)"+Replace this use of System.out by a logger.(éÍ­Š8ôê‚ …2J$3fc1bc5c-1308-4b1c-842b-85d7e4aedae2
-k	java:S108*")Either remove or fill this block of code.(É®£8ôê‚ …2J$1a91fd66-46d1-4937-bcbf-ccf74873deb3
-k	java:S1082")Either remove or fill this block of code.(É®£8ôê‚ …2J$d355fefd-7596-485c-af6d-3734c16c22e9
+java:S3457)"Q%n should be used in place of \n to produce the platform-specific line separator.(éÍ­Š8ñÄõË…2J$dcf22445-e20b-4578-b98c-2a75a72dfaf4
+m	java:S106)"+Replace this use of System.out by a logger.(éÍ­Š8ñÄõË…2J$16872f7b-ea13-4f37-bb83-1ff582d4b179
+k	java:S108+")Either remove or fill this block of code.(É®£8òÄõË…2J$fc416556-35e9-43c7-89aa-aa36da548041
+k	java:S1083")Either remove or fill this block of code.(É®£8óÄõË…2J$a12dccc7-4d4d-4396-baf3-eb89a97f9468
 g
-java:S6905;"Don't use the query "SELECT *".(Ü±¾Ÿÿÿÿÿÿ8ôê‚ …2J$ba822fdc-b74a-41d0-ac02-e76242721d64
-m	java:S106@"+Replace this use of System.out by a logger.(ê×¼©8ôê‚ …2J$fc44c9b2-46b5-477b-ac3b-814d451b1d86
-k	java:S108B")Either remove or fill this block of code.(É®£8ôê‚ …2J$2eb033d8-d1a7-4881-b2cd-7b87335d5592
-k	java:S108K")Either remove or fill this block of code.(É®£8ôê‚ …2J$f8258420-4d9f-489f-bfcf-c6cb1b6502f4
+java:S6905:"Don't use the query "SELECT *".(Ü±¾Ÿÿÿÿÿÿ8õÄõË…2J$6d678b98-5ff4-4745-9bce-67e1700daa5c
+m	java:S106?"+Replace this use of System.out by a logger.(ê×¼©8÷ÄõË…2J$c88e42d2-b727-46d4-95a3-50860de1f53c
+k	java:S108B")Either remove or fill this block of code.(É®£8÷ÄõË…2J$85de6d42-4f0c-49f5-a6af-bf89e9e0073e
+k	java:S108K")Either remove or fill this block of code.(É®£8ùÄõË…2J$b226d1d5-7d92-49e5-add0-a441f7f547a3
