@@ -2,7 +2,6 @@ package jm.task.core.jdbc.dao;
 
 import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.util.Util;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,19 +13,29 @@ public class UserDaoJDBCImpl implements UserDao {
     }
 
     public void createUsersTable() {
-        String tableCreate = "CREATE TABLE users (Id BIGINT PRIMARY KEY AUTO_INCREMENT, Name VARCHAR(20), LastName VARCHAR (20), Age TINYINT)";
+        String tableCreate = "CREATE TABLE IF NOT EXISTS users (Id BIGINT PRIMARY KEY AUTO_INCREMENT, Name VARCHAR(20), LastName VARCHAR (20), Age TINYINT)";
         try (Statement statement = conn.createStatement()) {
             statement.executeUpdate(tableCreate);
             conn.commit();
         } catch (SQLException e) {
+            System.out.println("SQLException. Executing rollback");
+            try {
+                conn.rollback();
+            } catch (SQLException ex) {
+            }
         }
     }
 
     public void dropUsersTable() {
         try (Statement statement = conn.createStatement()) {
-            statement.executeUpdate("DROP TABLE users");
+            statement.executeUpdate("DROP TABLE IF EXISTS users");
             conn.commit();
         } catch (SQLException e) {
+            System.out.println("SQLException. Executing rollback");
+            try {
+                conn.rollback();
+            } catch (SQLException ex) {
+            }
         }
     }
 
@@ -41,6 +50,11 @@ public class UserDaoJDBCImpl implements UserDao {
             System.out.printf("User с именем — %s добавлен в базу данных\n", name);
             statement.close();
         } catch (SQLException e) {
+            System.out.println("SQLException. Executing rollback");
+            try {
+                conn.rollback();
+            } catch (SQLException ex) {
+            }
         }
     }
 
@@ -49,6 +63,11 @@ public class UserDaoJDBCImpl implements UserDao {
             statement.executeUpdate("DELETE FROM users WHERE Id = " + id);
             conn.commit();
         } catch (SQLException e) {
+            System.out.println("SQLException. Executing rollback");
+            try {
+                conn.rollback();
+            } catch (SQLException ex) {
+            }
         }
     }
 
@@ -73,6 +92,11 @@ public class UserDaoJDBCImpl implements UserDao {
             statement.executeUpdate("TRUNCATE users");
             conn.commit();
         } catch (SQLException e) {
+            System.out.println("SQLException. Executing rollback");
+            try {
+                conn.rollback();
+            } catch (SQLException ex) {
+            }
         }
 
     }
